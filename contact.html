@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel = "stylesheet" href="stylesheet.css">
+    <link rel = "stylesheet" href="css/stylesheet.css">
     <title>Contact us</title>
 </head>
 
@@ -22,6 +22,99 @@
 </header>
 
 <body>
+<section>
+    <!-- Showcase -->
+    <div class="contact-background">
+        <!-- Content inside the showcase -->
+        <article class="content">
+            <h2>Contact us</h2>
+
+            <p>
+                With our excellent customer service we're only one click away from receiving your feedback.
+            </p>
+
+            <p>
+                Check out one of our many forms of contact if you need to get in touch with us.
+            </p>
+
+        </article>
+    </div>
+    <br>
+
+    <!-- Contact information -->
+    <article class="contact">
+        <h2>Try one of the below; </h2>
+
+        <p>
+            Email Address: Gym@outlook.com
+        </p>
+
+        <p>
+            Telephone: 0123456789
+        </p>
+
+        <!-- Importing social media images for icons -->
+        <p>
+            <a href="https://facebook.com/">
+                Facebook: <img src="images/facebook.jpg" height="35" width="35" alt="Facebook"> @Gym
+            </a>
+        </p>
+
+        <!-- Importing social media images for icons -->
+        <p>
+            <a href="https://www.instagram.com/">
+                Instagram: <img src="images/instagram.png" height="35" width="35" alt="Instagram"> @Gym
+            </a>
+        </p>
+
+        <!-- Importing social media images for icons -->
+        <p>
+            <a href="https://twitter.com/">
+                Twitter: <img src="images/twitter.png" height="35" width="35" alt="Twitter"> @Gym
+            </a>
+        </p>
+
+    </article>
+    <br>
+
+    <article class="form" id="contactForm">
+        <h2>Leave us a message: </h2>
+
+        <!-- Form attributes such as post method, when button is clicked to execute javascript validation function and if passed execute php file -->
+        <form method="post" name="contact" action="php/handlers/contact_form_response.php">
+
+            <!-- Label and text field for user entry of their first name-->
+            <label for="forename" class="forenameLabel">Forename:</label>
+            <input type="text" id="forename" name="forename" class="forenameField" placeholder="Forename">
+            <br>
+            <br>
+
+            <!-- Label and text field for user entry of their first name-->
+            <label for="surname" class="surnameLabel">Forename:</label>
+            <input type="text" id="surname" name="surname" class="surnameField" placeholder="Surname">
+            <br>
+            <br>
+
+            <!-- Label and text field for user entry of their first name-->
+            <label for="email" class="emailLabel">Forename:</label>
+            <input type="email" id="email" name="email" class="emailField" placeholder="Email">
+            <br>
+            <br>
+
+            <!-- Label and text box for user entry of their message -->
+            <label for="messageContactField" id="messageContactLabel">Message:
+                <textarea name="message" id="messageContactField" maxlength= "600"  rows="14" cols="44" placeholder="Leave a message here."></textarea>
+            </label>
+            <br>
+            <br>
+
+            <!-- Button to submit the form -->
+            <button type="submit" name ="submit" class="button">Submit </button>
+        </form>
+        <br>
+
+    </article>
+</section>
 
 </body>
 </html>

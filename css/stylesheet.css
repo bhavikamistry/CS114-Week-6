@@ -6,7 +6,7 @@ html, body, section{
 
 /* CONTACT US PAGE STYLING */
 /* Contact page image background */
-div{
+.contact-background{
     /* Height of showcase*/
     height: 60%;
     /* Margin between end of screen and image */

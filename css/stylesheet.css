@@ -1,3 +1,9 @@
+/* All parent elements in the document have maximum height */
+html, body, section{
+    /* This allows other elements in the rest of the page like the showcase to have their height styled by % */
+    height: 100%;
+}
+
 /* CONTACT US PAGE STYLING */
 /* Contact page image background */
 div{

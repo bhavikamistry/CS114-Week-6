@@ -38,6 +38,20 @@ nav ul{
     line-height: 70px;
 }
 
+/** Styling the list itself so it displays the navigation bar text horizontally */
+nav ul li {
+    display: inline;
+    margin: auto;
+}
+
+/* styling of the list elements in the navigation bar; home, about, contact us */
+nav ul li a {
+    font-family: Arial;
+    color: black;
+    /** Margin/padding between the words on the nav bar */
+    margin: 0 5px;
+}
+
 /* CONTACT US PAGE STYLING */
 /* Contact page image background */
 .contact-background{

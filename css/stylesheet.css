@@ -1,5 +1,17 @@
 /* CONTACT US PAGE STYLING */
 /* Contact page image background */
 .contact-background{
+    /* Height of showcase*/
+    height: 60%;
+    /* Margin between end of screen and image */
+    width: 95%;
+    /* Styling the showcase to make sure it covers the whole screen **/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Centering the showcase */
+    margin: auto;
+    position: relative;
+    background-position: center;
+    /* adding image to background */
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/form-filling.jpg");
 }

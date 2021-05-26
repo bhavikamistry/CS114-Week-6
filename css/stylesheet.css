@@ -5,31 +5,33 @@ html, body, section{
 
 /* Some general styling for the text & background*/
 body{
-    font-family: Arial;
+    font-family: "Calibri Light";
     text-align: center;
-    background-color: gray;
+    background-color: #5a5a5a;
     color: white;
+    margin: 0;
 }
 
 /* removing the underlines from hyperlinks */
 a{
     text-decoration: none;
+    color: white;
 }
 
 /** Styling the navigation bar */
 nav{
     width: 100%;
     margin: auto;
+    border-top: lightgray 1px solid;
     height: 85px;
     position: sticky;
     background-color: lightgray;
-    border-bottom: lightgray solid 20px;
 }
 
 /** Styling the title of the website */
-nav h1{
+nav h1 a{
+    font-family: Calibri;
     padding-left: 1%;
-    font-family: Arial;
     color: black;
     margin: auto;
     float: left;
@@ -52,7 +54,7 @@ nav ul li {
 
 /* styling of the list elements in the navigation bar; home, about, contact us */
 nav ul li a {
-    font-family: Arial;
+    font-family: Calibri;
     color: black;
     margin: 0 5px;
 }
@@ -72,7 +74,6 @@ nav ul li a {
 
 /* styling the text div in the page where the text falls on top of the background image */
 .content{
-    font-family: Arial;
     text-transform: capitalize;
     width: 100%;
     position: absolute;
@@ -80,4 +81,24 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
+}
+
+/* Align social media icons with text */
+.contact img{
+    vertical-align: middle;
+}
+
+/* Align label with the middle of the text box */
+label textarea {
+    vertical-align: middle;
+}
+
+/* align the surname label with the other form labels*/
+.surnameLabel {
+    padding-right: 7px;
+}
+
+/* align the email label with the other form labels*/
+.emailLabel{
+    padding-right: 28px;
 }

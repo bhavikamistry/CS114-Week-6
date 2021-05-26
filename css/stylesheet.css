@@ -98,7 +98,7 @@ footer p {
 
 /* Align social media icons with text */
 .contact img{
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 /* Align label with the middle of the text box */

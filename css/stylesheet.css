@@ -108,10 +108,10 @@ label textarea {
 
 /* align the surname label with the other form labels*/
 .surnameLabel {
-    padding-right: 7px;
+    padding-right: 24px;
 }
 
 /* align the email label with the other form labels*/
 .emailLabel{
-    padding-right: 28px;
+    padding-right: 40px;
 }

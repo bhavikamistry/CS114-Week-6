@@ -1,38 +1,44 @@
-/* All parent elements in the document have maximum height */
+/* All major elements in the document have maximum height */
 html, body, section{
-    /* This allows other elements in the rest of the page like the showcase to have their height styled by % */
     height: 100%;
 }
 
-/** Styling the navigation section of the screen */
+/* Some general styling for the text & background*/
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: darkgray;
+    text-decoration: white;
+}
+
+/* removing the underlines from hyperlinks */
+a{
+    text-decoration: none;
+}
+
+/** Styling the navigation bar */
 nav{
-    /* Nav bar covers 100% of the screen in width */
     width: 100%;
     margin: auto;
-    /* Height of nav bar */
     height: 85px;
     position: sticky;
     background-color: lightgray;
-    /** Black border acting as padding between nav bar and showcase */
     border-bottom: lightgray solid 20px;
 }
 
-/** Styling the logo/main heading of the website */
+/** Styling the title of the website */
 nav h1{
-    /** Padding between logo and end of screen */
     padding-left: 1%;
     font-family: Arial;
     color: black;
-    /** Positioning logo*/
     margin: auto;
     float: left;
     text-align: left;
     line-height: 70px;
 }
 
-/** Navigation bar height and position on the screen (right) */
+/** Nav bar height and position on the screen (right) */
 nav ul{
-    /* Positioning the navigation elements */
     margin: auto;
     text-align: right;
     line-height: 70px;
@@ -48,34 +54,27 @@ nav ul li {
 nav ul li a {
     font-family: Arial;
     color: black;
-    /** Margin/padding between the words on the nav bar */
     margin: 0 5px;
 }
 
 /* CONTACT US PAGE STYLING */
 /* Contact page image background */
 .contact-background{
-    /* Height of showcase*/
     height: 60%;
-    /* Margin between end of screen and image */
-    width: 95%;
-    /* Styling the showcase to make sure it covers the whole screen **/
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Centering the showcase */
     margin: auto;
     position: relative;
     background-position: center;
-    /* adding image to background */
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/form-filling.jpg");
 }
 
-/* class for styling the text div in the page where the text falls on top of the background image */
+/* styling the text div in the page where the text falls on top of the background image */
 .content{
     font-family: Arial;
     text-transform: capitalize;
     width: 100%;
-    /* Positioning text in the middle of showcase */
     position: absolute;
     top:50%;
     left: 50%;

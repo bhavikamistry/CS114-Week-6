@@ -59,6 +59,19 @@ nav ul li a {
     margin: 0 5px;
 }
 
+/** Styling the footer */
+footer{
+    color: black;
+    text-align: center;
+    background-color: lightgray;
+    margin: auto;
+}
+
+/** Adding space between the the footer */
+footer p {
+    padding: 30px;
+}
+
 /* CONTACT US PAGE STYLING */
 /* Contact page image background */
 .contact-background{

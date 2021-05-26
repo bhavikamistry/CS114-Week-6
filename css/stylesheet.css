@@ -7,8 +7,8 @@ html, body, section{
 body{
     font-family: Arial;
     text-align: center;
-    background-color: darkgray;
-    text-decoration: white;
+    background-color: gray;
+    color: white;
 }
 
 /* removing the underlines from hyperlinks */

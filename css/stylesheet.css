@@ -128,3 +128,72 @@ label textarea {
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/Gym image.jpg");
 }
+
+Our-story-sect {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.Our-story-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Our-story-title p{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Our-story-title h1 {
+    font-size: 50px;
+}
+
+.Our-story-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.Our-stories{
+    flex-basis: 50%;
+}
+
+.Our-stories-img {
+    flex-basis: 50%;
+    margin: auto;
+
+}
+.Our-stories-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.Our-stories h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.our-story-description {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.story-icon .fa{
+    width: 50px;
+    font-size: 30px;
+}
+
+.story-text p{
+    text-align: initial;
+}
+
+.navigate-to-contact:hover{
+    color: black;
+    text-decoration: underline;
+}

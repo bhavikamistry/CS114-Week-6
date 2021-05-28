@@ -30,6 +30,7 @@ nav{
 
 /** Styling the title of the website */
 nav h1 a{
+    font-size: xx-large;
     font-family: Calibri;
     padding-left: 1%;
     color: black;

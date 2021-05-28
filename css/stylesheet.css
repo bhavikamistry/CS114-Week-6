@@ -115,3 +115,16 @@ label textarea {
 .emailLabel{
     padding-right: 40px;
 }
+
+/*about page*/
+
+.about-background{
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/Gym image.jpg");
+}

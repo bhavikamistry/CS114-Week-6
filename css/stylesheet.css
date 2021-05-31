@@ -415,13 +415,7 @@ img{
             #42ffdb
     );
 }
-.card3>.container:after{
-    background-image: linear-gradient(
-            135deg,
-            #ffab1d,
-            #f8501c
-    );
-}
+
 .details{
     padding: 20px 10px;
 }

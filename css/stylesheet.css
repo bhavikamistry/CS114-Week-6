@@ -320,7 +320,7 @@ title-text{
 .testimonial-col p{
     font-size: 14px;
 }
-/*
+
 .user{
     display: flex;
     align-items: center;
@@ -332,7 +332,7 @@ title-text{
     margin-right: 20px;
     border-radius: 3px;
 }
-*/
+
 
 .user-info .fab{
     margin-left: 10px;

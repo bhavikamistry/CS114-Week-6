@@ -86,6 +86,18 @@ footer p {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/form-filling.jpg");
 }
 
+.contact h1, .form h1{
+    font-size: xx-large;
+}
+
+/* contact icon styling*/
+.contact img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
 /* styling the text div in the page where the text falls on top of the background image */
 .content{
     text-transform: capitalize;
@@ -95,11 +107,6 @@ footer p {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-}
-
-/* Align social media icons with text */
-.contact img{
-    vertical-align: bottom;
 }
 
 /* Align label with the middle of the text box */
@@ -115,6 +122,35 @@ label textarea {
 /* align the email label with the other form labels*/
 .emailLabel{
     padding-right: 40px;
+}
+
+/* COVID PAGE STLYING */
+.covid-background {
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/covid.png");
+}
+
+/* aligning gym image with list */
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.covid h1{
+    font-size: xx-large;
+}
+
+.covid img{
+    width: 450px;
+    height: 250px;
+    vertical-align: center;
+    display: inline-block;
 }
 
 /*about page*/
@@ -206,16 +242,6 @@ label textarea {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/homepagebackground.jpg");
 }
 
-
-/* Align social media icons with text */
-.contact img{
-    vertical-align: bottom;
-}
-
-/* Align label with the middle of the text box */
-label textarea {
-    vertical-align: middle;
-}
 /*--- Home Page Banner END ---*/
 
 /* Features START */
@@ -351,16 +377,6 @@ title-text{
 }
 
 
-/* Align social media icons with text */
-.contact img{
-    vertical-align: bottom;
-}
-
-/* Align label with the middle of the text box */
-label textarea {
-    vertical-align: middle;
-
-}
 .content p{
     font-size: 20px;
 }

@@ -230,6 +230,78 @@ label textarea {
     text-decoration: underline;
 }
 
+
+/*about-us*/
+.about-us-background {
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Gym image.jpg");
+}
+
+.about-us-information{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.information{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: black;
+    position: relative;
+
+}
+
+.information img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.info p{
+    font-size: 15px;
+}
+
+.information .info{
+    bottom: 30%;
+    opacity: 1;
+    color: white;
+}
+.navigate-to-contact{
+    color: white;
+}
+
+.navigate-to-contact:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*membership*/
 .membership-background{
     height: 60%;
@@ -242,29 +314,11 @@ label textarea {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/gym-membership.jpg");
 }
 
-
-/*--- Home Page Banner START ---*/
-.home-background{
-    height: 60%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    position: relative;
-    background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/homepagebackground.jpg");
-}
 .navigate-to-facilities:hover{
     color: grey;
     text-decoration: underline;
 }
 
-#home {
-    background-image: url("../Images/Background-pic.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 210vh;
-}
 
 .Membership-options{
     width: 80%;
@@ -328,6 +382,18 @@ label textarea {
     color: black;
     text-decoration: none;
 }
+/*--- Home Page Banner START ---*/
+.home-background{
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/homepagebackground.jpg");
+}
+
 
 
 

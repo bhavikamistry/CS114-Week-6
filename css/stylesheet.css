@@ -94,8 +94,8 @@ footer p {
 .contact img{
     width: 40px;
     height: 40px;
-    display: inline-block;
-    vertical-align: bottom;
+    display: inline;
+    vertical-align: middle;
 }
 
 /* styling the text div in the page where the text falls on top of the background image */
@@ -116,12 +116,12 @@ label textarea {
 
 /* align the surname label with the other form labels*/
 .surnameLabel {
-    padding-right: 24px;
+    padding-right: 10px;
 }
 
 /* align the email label with the other form labels*/
 .emailLabel{
-    padding-right: 40px;
+    padding-right: 32px;
 }
 
 /* COVID PAGE STLYING */
@@ -230,6 +230,19 @@ label textarea {
     text-decoration: underline;
 }
 
+/*membership*/
+.membership-background{
+    height: 60%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/gym-membership.jpg");
+}
+
+
 /*--- Home Page Banner START ---*/
 .home-background{
     height: 60%;
@@ -241,6 +254,148 @@ label textarea {
     background-position: center;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/homepagebackground.jpg");
 }
+.navigate-to-facilities:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+#home {
+    background-image: url("../Images/Background-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 210vh;
+}
+
+.Membership-options{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.Memberships{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: black;
+    position: relative;
+
+}
+
+.Memberships img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.hover-layover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.01),white);
+    opacity: 0;
+    transition: 1s;
+}
+
+.Memberships:hover .hover-layover{
+    opacity: 1;
+}
+
+.info {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.info p{
+    font-size: 15px;
+}
+
+.Memberships:hover .info{
+    bottom: 30%;
+    opacity: 1;
+}
+
+.info h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--- Home Page Banner END ---*/
 
@@ -442,3 +597,4 @@ img{
     line-height: 30px;
     font-weight: 400;
 }
+

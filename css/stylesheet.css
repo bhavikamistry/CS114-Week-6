@@ -514,12 +514,12 @@ title-text{
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
-    color: red;
+    color: #fafdfc;
 }
 .features-desc{
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 .feature-icon .fas{
     width: 50px ;
@@ -533,6 +533,7 @@ title-text{
 .feature-text p{
     padding: 0 20px;
     text-align: initial;
+    color: #1c1b29;
 
 }
 
@@ -541,7 +542,10 @@ title-text{
 /*-------- TESTIOMONIALS START---*/
 #testimonial{
     width: 100%;
-    padding: 70px;
+    padding: 200px;
+    align-items: center;
+    padding-top: 200px;
+    margin-left: 5px;
 }
 .testimonial-row{
     width: 80%;
@@ -550,11 +554,12 @@ title-text{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap:wrap ;
+    margin-left: 20px;
 }
 .testimonial-col{
     flex-basis: 28%;
     padding: 10px;
-   margin-bottom: 30px;
+   margin-bottom: 5px;
     border-radius: 5px;
     box-shadow: 0 10px 20px 3px rgba(236, 86, 92, 0.59);
     cursor: pointer;
@@ -584,6 +589,8 @@ title-text{
 .user-info small{
     color: #009688;
 }
+
+
 /*-------- TESTIOMONIALS START---*/
 /*--- Facilities Banner START ---*/
 .facilities-background{
@@ -603,6 +610,7 @@ title-text{
 }
 /*--- Facilities Banner END ---*/
 
+/* Facilities boxes START*/
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
@@ -664,3 +672,4 @@ img{
     font-weight: 400;
 }
 
+/* Facilities boxes END*/
